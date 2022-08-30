@@ -1,24 +1,20 @@
-# README
+# Quote Reading App
+Heroku Url: [https://houzz-assessment.herokuapp.com/quote](https://houzz-assessment.herokuapp.com/quote)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Technical Description
+* **Ruby version:** 3.1.2
+* **Rails version:** 7.0.3
+* **Database:** Not required
+* **Tests:** Rspec for controller
 
-Things you may want to cover:
+## Installation
+* Clone the repo
+* Install ruby 3.1.2 using rbenv/rvm
+* run ```bundle insall```
+* start the server and ready to go. 
+## Running Tests
+```
+ rspec spec/controllers/quotes_controller_spec.rb  
+ ```
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+ **Note:** The app does not use any database so far. So extending the app might require the implementation of database. 
